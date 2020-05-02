@@ -33,3 +33,10 @@
 
 # CodeBlocks generated files
 *.layout
+
+# Visual Studio files
+.vs/
+bin/
+obj/
+Debug/
+Release/

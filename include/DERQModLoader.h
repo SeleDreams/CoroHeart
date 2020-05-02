@@ -1,16 +1,22 @@
 #ifndef DERQMODLOADER_H
 #define DERQMODLOADER_H
+#include <Windows.h>
 
+enum LoggingLevels {
+    Infos,
+    Warning,
+    Error
+};
 
 class DERQModLoader
 {
     public:
-        void* ProcessAddress;
+        static HMODULE ProcessAddress;
         static int Init();
-        inline static bool MustStop;
-        static DERQModLoader Instance;
+        static void InitConsole();
+        static void CloseConsole();
     protected:
-        void Start();
+        static void Start();
     private:
 };
 #endif // DEATHENDREQUESTMODDINGHOOK_H
