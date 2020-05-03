@@ -1,0 +1,3 @@
+LIBRARY SeleDreamsEngine
+EXPORTS
+SeleDreamsEngine::Logging::Log=SeleDreamsEngine::Logging::Log
