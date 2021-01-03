@@ -95,7 +95,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>include;../CoroHeart/include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
-    <OutDir>D:\Games\steamapps\common\DeathEndReQuest\resource\bin</OutDir>
+    <OutDir>C:\\Steam\steamapps\common\Death end reQuest\resource\bin</OutDir>
     <TargetName>d3d11</TargetName>
     <IntDir>obj\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>

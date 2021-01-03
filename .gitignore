@@ -40,3 +40,5 @@ bin/
 obj/
 Debug/
 Release/
+CoroHeart/Dependencies/Detours/bin.X64
+CoroHeart/Dependencies/Detours/lib.X64

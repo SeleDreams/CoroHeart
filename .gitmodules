@@ -1,0 +1,3 @@
+[submodule "CoroHeart/Dependencies/Detours"]
+	path = CoroHeart/Dependencies/Detours
+	url = https://github.com/microsoft/Detours

@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include "detours.h"
+#include "../Dependencies/Detours/include/detours.h"
 #include "logging.h"
 #include "offsets.h"
 
