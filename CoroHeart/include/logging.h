@@ -2,7 +2,7 @@
 #define COROHEART_LOGGING_H
 #include <Windows.h>
 #include "offsets.h"
-#include "detours.h"
+#include "../Dependencies/Detours/include/detours.h"
 
 enum {
 	Info,

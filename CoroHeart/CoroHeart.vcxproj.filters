@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\coroheart.c" />
+    <ClCompile Include="src\logging.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\corodetours.h" />
+    <ClInclude Include="include\coroheart.h" />
+    <ClInclude Include="include\logging.h" />
+    <ClInclude Include="include\offsets.h" />
+    <ClInclude Include="Dependencies\Detours\include\detours.h">
+      <Filter>Dependencies\Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Detours\include\detver.h">
+      <Filter>Dependencies\Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Detours\include\syelog.h">
+      <Filter>Dependencies\Detours</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{8472bf43-738d-4ed2-bc6d-213db8e7b618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\Detours">
+      <UniqueIdentifier>{338fb99e-582f-447e-91c8-9f004a4ca4b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
